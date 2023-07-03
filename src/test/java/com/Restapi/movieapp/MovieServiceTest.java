@@ -14,12 +14,12 @@ import java.util.Optional;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
-import org.junit.runner.RunWith;
+
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.MockBean;
-import org.springframework.test.context.junit4.SpringRunner;
+
 
 
 import com.Restapi.movieapp.model.Movie;
@@ -28,7 +28,6 @@ import com.Restapi.movieapp.service.MovieServiceImpl;
 
 import lombok.extern.log4j.Log4j2;
 
-@RunWith(SpringRunner.class)
 @SpringBootTest
 @Log4j2
 public class MovieServiceTest {

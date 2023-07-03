@@ -42,7 +42,5 @@ public interface MovieRepository extends JpaRepository<Movie, Long> {
 	@Query("select m from Movie m WHERE HOUR (m.duration) =?1")
 	List<Movie> findByHours(int hours);
 
-	
-
 
 }
